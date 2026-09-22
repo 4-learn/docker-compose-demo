@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   api:
-    image: docker-fastapi
+    image: fastapi-docker
     ports:
-      - "8000:8000"
+      - "1213:8000"

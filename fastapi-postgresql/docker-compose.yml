@@ -4,7 +4,7 @@ services:
   api:
     build: .
     ports:
-      - "8000:8000"
+      - "1214:8000"
     depends_on:
       - db
 
@@ -15,4 +15,4 @@ services:
       POSTGRES_PASSWORD: ai_pass
       POSTGRES_DB: ai_db
     ports:
-      - "5432:5432"
+      - "4090:5432"
